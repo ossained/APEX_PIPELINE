@@ -1,0 +1,22 @@
+2026-03-15 14:41:43,086 INFO pipeline started
+2026-03-15 14:41:43,828 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-15 14:41:44,349 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-15 14:41:44,875 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-15 14:41:45,375 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-15 14:41:45,375 INFO Extract done for AMZN:extracted 16 rows
+2026-03-15 14:41:45,685 INFO Transform done - 16 rows
+2026-03-15 14:41:49,882 ERROR loading failed -(psycopg2.errors.UndefinedColumn) column "symbol" of relation "stockprices_data" does not exist
+LINE 1: ...s_data (datetime, open, high, low, close, volume, symbol) VA...
+                                                             ^
+
+[SQL: INSERT INTO stockprices_data (datetime, open, high, low, close, volume, symbol) VALUES (%(datetime__0)s, %(open__0)s, %(high__0)s, %(low__0)s, %(close__0)s, %(volume__0)s, %(symbol__0)s), (%(datetime__1)s, %(open__1)s, %(high__1)s, %(low__1)s, %(clos ... 1393 characters truncated ... etime__15)s, %(open__15)s, %(high__15)s, %(low__15)s, %(close__15)s, %(volume__15)s, %(symbol__15)s)]
+[parameters: {'high__0': 250.37, 'datetime__0': datetime.datetime(2026, 3, 13, 15, 59), 'close__0': 250.11501, 'symbol__0': 'AAPL', 'volume__0': 1919741, 'open__0': 250.27, 'low__0': 249.52, 'high__1': 250.3, 'datetime__1': datetime.datetime(2026, 3, 13, 15, 58), 'close__1': 250.27, 'symbol__1': 'AAPL', 'volume__1': 491022, 'open__1': 250.175, 'low__1': 250.070007, 'high__2': 250.44, 'datetime__2': datetime.datetime(2026, 3, 13, 15, 57), 'close__2': 250.16, 'symbol__2': 'AAPL', 'volume__2': 292118, 'open__2': 250.32001, 'low__2': 250.13, 'high__3': 250.38989, 'datetime__3': datetime.datetime(2026, 3, 13, 15, 56), 'close__3': 250.315, 'symbol__3': 'AAPL', 'volume__3': 226224, 'open__3': 250.33, 'low__3': 250.25, 'high__4': 395.72, 'datetime__4': datetime.datetime(2026, 3, 13, 15, 59), 'close__4': 395.60999, 'symbol__4': 'MSFT', 'volume__4': 407465, 'open__4': 395.54001, 'low__4': 395.36499, 'high__5': 395.55, 'datetime__5': datetime.datetime(2026, 3, 13, 15, 58), 'close__5': 395.54001, 'symbol__5': 'MSFT', 'volume__5': 204931, 'open__5': 395.48001, 'low__5': 395.35, 'high__6': 395.76001, 'datetime__6': datetime.datetime(2026, 3, 13, 15, 57), 'close__6': 395.48001, 'symbol__6': 'MSFT', 'volume__6': 135890, 'open__6': 395.55499, 'low__6': 395.43, 'high__7': 395.58 ... 12 parameters truncated ... 'low__8': 302.16, 'high__9': 302.31, 'datetime__9': datetime.datetime(2026, 3, 13, 15, 58), 'close__9': 302.29001, 'symbol__9': 'GOOGL', 'volume__9': 189639, 'open__9': 302.23001, 'low__9': 302.12, 'high__10': 302.51001, 'datetime__10': datetime.datetime(2026, 3, 13, 15, 57), 'close__10': 302.22501, 'symbol__10': 'GOOGL', 'volume__10': 188020, 'open__10': 302.23999, 'low__10': 302.16, 'high__11': 302.31, 'datetime__11': datetime.datetime(2026, 3, 13, 15, 56), 'close__11': 302.23001, 'symbol__11': 'GOOGL', 'volume__11': 377490, 'open__11': 302.10999, 'low__11': 301.95001, 'high__12': 207.74, 'datetime__12': datetime.datetime(2026, 3, 13, 15, 59), 'close__12': 207.71001, 'symbol__12': 'AMZN', 'volume__12': 510860, 'open__12': 207.7, 'low__12': 207.57001, 'high__13': 207.7, 'datetime__13': datetime.datetime(2026, 3, 13, 15, 58), 'close__13': 207.69501, 'symbol__13': 'AMZN', 'volume__13': 289268, 'open__13': 207.61501, 'low__13': 207.57, 'high__14': 207.7, 'datetime__14': datetime.datetime(2026, 3, 13, 15, 57), 'close__14': 207.62, 'symbol__14': 'AMZN', 'volume__14': 271038, 'open__14': 207.61, 'low__14': 207.55, 'high__15': 207.7, 'datetime__15': datetime.datetime(2026, 3, 13, 15, 56), 'close__15': 207.605, 'symbol__15': 'AMZN', 'volume__15': 214522, 'open__15': 207.69, 'low__15': 207.50999}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-03-15 15:01:30,210 INFO pipeline started
+2026-03-15 15:01:30,706 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-15 15:01:31,184 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-15 15:01:31,647 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-15 15:01:32,097 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-15 15:01:32,098 INFO Extract done for AMZN:extracted 16 rows
+2026-03-15 15:01:32,104 INFO Transform done - 16 rows
+2026-03-15 15:01:32,782 INFO Data loaded - 16rows loaded into the database.
