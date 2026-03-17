@@ -20,3 +20,59 @@ LINE 1: ...s_data (datetime, open, high, low, close, volume, symbol) VA...
 2026-03-15 15:01:32,098 INFO Extract done for AMZN:extracted 16 rows
 2026-03-15 15:01:32,104 INFO Transform done - 16 rows
 2026-03-15 15:01:32,782 INFO Data loaded - 16rows loaded into the database.
+2026-03-16 22:37:20,949 INFO pipeline started
+2026-03-16 22:37:22,067 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-16 22:37:22,513 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-16 22:37:22,932 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-16 22:37:23,350 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-16 22:37:23,350 INFO Extract done for AMZN:extracted 16 rows
+2026-03-16 22:37:23,359 INFO Transform done - 16 rows
+2026-03-16 22:37:26,780 INFO Data loaded - 16rows loaded into the database.
+2026-03-16 22:41:14,656 INFO pipeline started
+2026-03-16 22:41:15,077 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-16 22:41:15,534 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-16 22:41:15,966 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-16 22:41:16,414 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-16 22:41:16,415 INFO Extract done for AMZN:extracted 16 rows
+2026-03-16 22:41:16,423 INFO Transform done - 16 rows
+2026-03-16 22:41:16,569 INFO Data loaded - 16rows loaded into the database.
+2026-03-16 22:45:55,263 INFO pipeline started
+2026-03-16 22:45:55,705 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-16 22:45:56,176 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-16 22:45:56,653 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-16 22:45:57,084 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-16 22:45:57,085 INFO Extract done for AMZN:extracted 16 rows
+2026-03-16 22:45:57,094 INFO Transform done - 16 rows
+2026-03-16 22:45:57,239 INFO Data loaded - 16rows loaded into the database.
+2026-03-16 22:48:44,241 INFO pipeline started
+2026-03-16 22:48:44,697 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-16 22:48:45,108 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-16 22:48:45,520 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-16 22:48:45,934 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-16 22:48:45,934 INFO Extract done for AMZN:extracted 16 rows
+2026-03-16 22:48:45,943 INFO Transform done - 16 rows
+2026-03-16 22:48:46,166 INFO Data loaded - 16rows loaded into the database.
+2026-03-16 22:50:03,601 INFO pipeline started
+2026-03-16 22:50:04,060 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-16 22:50:04,498 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-16 22:50:04,934 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-16 22:50:05,371 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-16 22:50:05,371 INFO Extract done for AMZN:extracted 16 rows
+2026-03-16 22:50:05,379 INFO Transform done - 16 rows
+2026-03-16 22:50:05,499 INFO Data loaded - 16rows loaded into the database.
+2026-03-16 22:54:13,953 INFO pipeline started
+2026-03-16 22:54:14,403 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-16 22:54:14,849 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-16 22:54:15,275 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-16 22:54:15,673 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-16 22:54:15,673 INFO Extract done for AMZN:extracted 16 rows
+2026-03-16 22:54:15,680 INFO Transform done - 16 rows
+2026-03-16 22:54:15,800 INFO Data loaded - 16rows loaded into the database.
+2026-03-16 22:57:38,925 INFO pipeline started
+2026-03-16 22:57:39,370 INFO Extraction done for AAPL:extracted 4 rows
+2026-03-16 22:57:39,802 INFO Extraction done for MSFT:extracted 4 rows
+2026-03-16 22:57:40,276 INFO Extraction done for GOOGL:extracted 4 rows
+2026-03-16 22:57:40,749 INFO Extraction done for AMZN:extracted 4 rows
+2026-03-16 22:57:40,750 INFO Extract done for AMZN:extracted 16 rows
+2026-03-16 22:57:40,758 INFO Transform done - 16 rows
+2026-03-16 22:57:40,906 INFO Data loaded - 16rows loaded into the database.
