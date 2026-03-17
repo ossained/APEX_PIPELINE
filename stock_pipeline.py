@@ -10,9 +10,9 @@ import psycopg2
 from sqlalchemy import create_engine, text
 import logging
 
-# -----------------------------
+
 # Logging configuration
-# -----------------------------
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(message)s",
@@ -24,9 +24,9 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-# -----------------------------
+
 # Load environment variables
-# -----------------------------
+
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
 DB_USER = os.getenv('DB_USER')
@@ -38,9 +38,9 @@ DB_PORT = os.getenv('DB_PORT')
 symbols = ['AAPL', 'MSFT', 'GOOGL', 'AMZN']
 
 
-# -----------------------------
+
 # Step 1 — Extract
-# -----------------------------
+
 def extract(symbols: list) -> list:
     all_records = []
 
@@ -69,9 +69,8 @@ def extract(symbols: list) -> list:
     return all_records
 
 
-# -----------------------------
+
 # Step 2 — Transform
-# -----------------------------
 def transform(records: list) -> pd.DataFrame:
     try:
         df = pd.DataFrame(records)
@@ -94,9 +93,9 @@ def transform(records: list) -> pd.DataFrame:
         raise
 
 
-# -----------------------------
+
 # Step 3 — Load
-# -----------------------------
+
 def load(df: pd.DataFrame) -> None:
     try:
         db_url = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
@@ -111,9 +110,9 @@ def load(df: pd.DataFrame) -> None:
         raise
 
 
-# -----------------------------
+
 # Step 4 — Validation
-# -----------------------------
+
 def validate(expected_count: int):
     logger.info("Validating database load...")
 
@@ -140,9 +139,9 @@ def validate(expected_count: int):
         raise
 
 
-# -----------------------------
+
 # ETL-only runner
-# -----------------------------
+
 def run_etl():
     logger.info("ETL started")
 
@@ -154,30 +153,25 @@ def run_etl():
     return df  # return df so validation can use it
 
 
-# -----------------------------
+
 # Validation-only runner
-# -----------------------------
+
 def run_validation():
-    # You can choose what expected_count means:
-    # Option 1: Validate at least 1 row exists
-    # Option 2: Validate based on last ETL run (recommended)
     logger.info("Running validation only...")
 
-    # Example: validate at least 1 row exists
     validate(1)
 
 
-# -----------------------------
 # Full pipeline runner
-# -----------------------------
+
 def run_pipeline():
     df = run_etl()
     validate(len(df))
     logger.info("Pipeline completed successfully")
 
 
-# -----------------------------
+
 # Entry point
-# -----------------------------
+
 if __name__ == "__main__":
-    run_pipeline()   # Change to run_etl() or run_validation() if needed
+    run_pipeline()   
