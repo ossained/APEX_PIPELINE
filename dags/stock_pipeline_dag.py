@@ -7,7 +7,7 @@ from stock_pipeline import validate
 with DAG(
     dag_id="stock_prices_pipeline",
     start_date=datetime(2024, 3, 15),
-    schedule="*/10 * * * *",
+    schedule="*/02 * * * *",
     catchup=False,
     tags=["stockprices", "Apex", "etl"],
 ) as dag:
@@ -22,4 +22,4 @@ with DAG(
         python_callable=lambda ti: validate(ti.xcom_pull(task_ids="run_pipeline"))
     )
 
-    
+    t1 >> t2
