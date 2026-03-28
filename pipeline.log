@@ -76,3 +76,28 @@ LINE 1: ...s_data (datetime, open, high, low, close, volume, symbol) VA...
 2026-03-16 22:57:40,750 INFO Extract done for AMZN:extracted 16 rows
 2026-03-16 22:57:40,758 INFO Transform done - 16 rows
 2026-03-16 22:57:40,906 INFO Data loaded - 16rows loaded into the database.
+2026-03-28 08:41:11,744 INFO Pipeline started
+2026-03-28 08:41:11,759 INFO ETL started
+2026-03-28 08:41:12,730 INFO Extraction done for AAPL: 4 rows
+2026-03-28 08:41:13,192 INFO Extraction done for MSFT: 4 rows
+2026-03-28 08:41:13,620 INFO Extraction done for GOOGL: 4 rows
+2026-03-28 08:41:14,084 INFO Extraction done for AMZN: 4 rows
+2026-03-28 08:41:14,085 INFO Extract done: total 16 rows
+2026-03-28 08:41:14,408 INFO Transform done - 16 rows
+2026-03-28 08:41:19,276 INFO Data loaded - 16 rows
+2026-03-28 08:41:19,276 INFO ETL completed
+2026-03-28 08:41:19,546 INFO Validation passed
+2026-03-28 08:41:19,546 INFO Pipeline completed
+2026-03-28 08:47:13,626 INFO ETL started
+2026-03-28 08:47:14,136 INFO Extraction done for AAPL: extracted 4 rows
+2026-03-28 08:47:14,577 INFO Extraction done for MSFT: extracted 4 rows
+2026-03-28 08:47:15,006 INFO Extraction done for GOOGL: extracted 4 rows
+2026-03-28 08:47:15,442 INFO Extraction done for AMZN: extracted 4 rows
+2026-03-28 08:47:15,443 INFO Extract done: extracted 16 rows total
+2026-03-28 08:47:15,452 INFO Transform done - 16 rows
+2026-03-28 08:47:16,425 INFO Data loaded - 16 rows loaded into the database.
+2026-03-28 08:47:16,425 INFO ETL completed successfully
+2026-03-28 08:47:16,425 INFO Validating database load...
+2026-03-28 08:47:16,572 INFO Database now contains 544 rows
+2026-03-28 08:47:16,573 INFO Database load validation passed.
+2026-03-28 08:47:16,573 INFO Pipeline completed successfully
